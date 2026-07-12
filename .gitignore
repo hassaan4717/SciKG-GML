@@ -1,0 +1,325 @@
+# ===============================
+# Python (Django Backend)
+# ===============================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+/media/
+/staticfiles/
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Scrapy stuff
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env/
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Profiling data
+*.prof
+
+# ===============================
+# Node / React (Frontend)
+# ===============================
+
+# Dependencies
+/node_modules
+/node_modules_old
+/jspm_packages
+
+# Build outputs
+/dist
+/build
+/build_old
+/.sass-cache
+/.cache
+/.parcel-cache
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Testing
+/coverage
+/.nyc_output
+/.jest
+/junit.xml
+
+# Bundle analysis
+/.webpack-stats.json
+/.stats.json
+
+# TypeScript
+*.tsbuildinfo
+
+# Yarn / NPM
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.npm
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.pnp.js
+.pnp.cjs
+
+# Vite
+/vite.config.js.timestamp-*
+/vite.config.ts.timestamp-*
+
+# Next.js (if using Next.js)
+/.next/
+/out/
+
+# ===============================
+# Combined / Shared
+# ===============================
+
+# Secrets and sensitive data
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.crt
+secrets.json
+config.local.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Dump files
+*.dump
+*.dump.sql
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Docker (if using)
+.dockerignore
+!docker-compose.override.yml
+
+# IDE - Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.history/
+*.code-workspace
+
+# IDE - IntelliJ / PyCharm / WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# IDE - Vim
+*.swp
+*.swo
+*~
+*.un~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Archive / temporary files
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+*.tmp
+*.temp
+
+# ===============================
+# Project-specific
+# ===============================
+
+# Staticfiles collected by Django (if using whitenoise)
+/backend/staticfiles/
+/frontend/build/
+
+# Media uploaded by users
+/media/
+user_rag_data/
+backend/evaluation/workspace/
+
+# Log files from Django or React
+*.log
+logs/
+
+# Environment variables files (keep example)
+.env.local
+.env.production
+
+# Python bytecode in frontend (if any)
+/frontend/__pycache__/
+
+# Node modules in backend (unlikely but just in case)
+/backend/node_modules/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.coverage.*.*
+
+# Yarn / NPM
+package-lock.json
+yarn.lock
