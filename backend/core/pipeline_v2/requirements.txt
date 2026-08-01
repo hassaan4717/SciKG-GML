@@ -1,0 +1,11 @@
+torch>=2.2
+transformers>=4.45
+accelerate>=0.33
+sentence-transformers>=3.0
+numpy>=1.26
+networkx>=3.3
+python-igraph>=0.11
+leidenalg>=0.10
+pypdf>=5.0
+tqdm>=4.66
+openai>=1.50
