@@ -1,0 +1,44 @@
+{
+    "novel12": {
+        "retrieval": {
+            "Complex Reasoning": {
+                "context_relevancy": 0.9137931034482759,
+                "context_recall": 0.882183908045977
+            },
+            "Contextual Summarize": {
+                "context_relevancy": 0.9285714285714286,
+                "context_recall": 0.7333333333333333
+            },
+            "Creative Generation": {
+                "context_relevancy": 0.8234514211234264,
+                "context_recall": 0.7521114289934273
+            },
+            "Fact Retrieval": {
+                "context_relevancy": 0.8645833333333334,
+                "context_recall": 0.7381555555555555
+            }
+        },
+        "generation": {
+            "Fact Retrieval": {
+                "rouge_score": 0.7552264141660428,
+                "answer_correctness": 0.7672320091053314
+            },
+            "Complex Reasoning": {
+                "answer_correctness": 0.7199417803295257,
+                "coverage_score": 0.7844827586206896,
+                "faithfulness": 0.9160353535353535
+            },
+            "Contextual Summarize": {
+                "rouge_score": 0.7347136999684287,
+                "answer_correctness": 0.7232470844768815,
+                "coverage_score": 0.7658730158730158,
+                "faithfulness": 0.8990079365079365
+            },
+            "Creative Generation": {
+                "answer_correctness": 0.833324153905823,
+                "coverage_score": 0.7838095238095238,
+                "faithfulness": 0.8079283400038116
+            }
+        }
+    }
+}
