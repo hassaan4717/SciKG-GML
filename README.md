@@ -1,6 +1,6 @@
-# 🧠 GraphRAG Studio
+# 🧠 SciKG-GML
 
-**GraphRAG Studio** is a full-stack, intelligent Knowledge Graph-enhanced Retrieval-Augmented Generation (RAG) application. Unlike traditional RAG systems that rely solely on flat vector similarity (which often loses global context and complex relationships), GraphRAG understands the *structure* of your data. It allows users to ingest text documents, automatically build a dynamic knowledge graph, detect thematic communities, and chat with the data using advanced hybrid retrieval and LLM-powered reasoning.
+**SciKG-GML** is a full-stack, intelligent Knowledge Graph-enhanced Retrieval-Augmented Generation (RAG) application. Unlike traditional RAG systems that rely solely on flat vector similarity (which often loses global context and complex relationships), GraphRAG understands the *structure* of your data. It allows users to ingest text documents, automatically build a dynamic knowledge graph, detect thematic communities, and chat with the data using advanced hybrid retrieval and LLM-powered reasoning.
 
 ![Chat Interface](assets/chat-interface.png)
 
@@ -10,7 +10,7 @@ Traditional RAG splits documents into chunks and searches them based on keyword 
 **GraphRAG** solves this by extracting entities (people, places, concepts) and their relationships to build a Knowledge Graph. It then groups related entities into "communities" and uses an LLM to generate high-level summaries for each group. This gives the AI both a **micro-level** view (specific facts) and a **macro-level** view (broad themes) of your data.
 
 ### ⚙️ How This Project Answers Questions
-When you ask a question in GraphRAG Studio, the system doesn't just do a simple search. It executes a sophisticated, multi-step reasoning pipeline:
+When you ask a question in SciKG-GML, the system doesn't just do a simple search. It executes a sophisticated, multi-step reasoning pipeline:
 
 1. **Entity Extraction & Graph Expansion:** The system identifies key entities in your question. It then traverses the Knowledge Graph to find not just the exact matches, but also *neighboring entities* that are strongly related, ensuring no crucial context is missed.
 2. **Hybrid Retrieval:** It performs a dual search:
