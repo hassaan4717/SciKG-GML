@@ -209,7 +209,7 @@ Make sure you are in the `backend` directory before running:
 ## 📂 Project Structure
 
 ```bash
-graphrag-studio/
+SciKG-GML/
 ├── backend/
 │   ├── grag/                 # Django core app settings
 │   ├── core/                 # GraphRAG logic (indexing, pipeline, vector store)
